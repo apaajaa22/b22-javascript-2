@@ -1,12 +1,20 @@
 {
   "name": "b22-javascript-2",
   "version": "1.0.0",
-  "description": "",
   "main": "no1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apaajaa22/b22-javascript-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apaajaa22/b22-javascript-2/issues"
+  },
+  "homepage": "https://github.com/apaajaa22/b22-javascript-2#readme",
+  "description": ""
 }
