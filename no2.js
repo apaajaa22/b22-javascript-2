@@ -22,7 +22,7 @@ function searchName(param1, param2, callback) {
     .filter((item) => {
       return item.toLowerCase().includes(param1)
     })
-    .splice(!param2)
+    .slice(0, param2)
   return callback(filtered)
 }
 
