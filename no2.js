@@ -17,10 +17,10 @@ function searchName(param1, param2, callback) {
     "Olivia",
     "Penelope",
   ]
-  let text = param1
+
   const filtered = name
     .filter((item) => {
-      return item.includes(text)
+      return item.includes(param1)
     })
     .splice(!param2)
   return callback(filtered)
