@@ -20,7 +20,7 @@ function searchName(param1, param2, callback) {
 
   const filtered = name
     .filter((item) => {
-      return item.includes(param1)
+      return item.toLowerCase().includes(param1)
     })
     .splice(!param2)
   return callback(filtered)
